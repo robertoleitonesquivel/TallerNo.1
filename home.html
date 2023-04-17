@@ -6,20 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link rel="stylesheet" href="./iconos/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <div>
                 <img src="#" alt="">
             </div>
             <div>
-                <ul>
+                <ul class="menu-horizontal">
                     <li><a href="/home.html">Inicio</a></li>
                     <li>
                         <a href="#">Paciente</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/registrar.html">Crear perfil</a></li>
                             <li><a href="/pagos.html">Realizar pago</a></li>
@@ -31,7 +33,7 @@
                     </li>
                     <li>
                         <a href="#">Médico</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/elaborarTratamientos.html">Elaborar tratamientos</a></li>
                             <li><a href="/planesDentales.html">Planes dentales</a></li>
@@ -42,7 +44,7 @@
                     </li>
                     <li>
                         <a href="#">Administrador</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/enviarComunicados.html">Enviar comunicados</a></li>
                             <li><a href="/historialCitas.html">Historial de citas</a></li>
@@ -59,48 +61,66 @@
             </div>
         </nav>
     </header>
-    <aside>
+    <aside class="sidebar">
         <img src="img/Slider.png" alt="">
     </aside>
     <main>
-        <section>
+        <section class="sobre-nosotros">
             <h2>Sobre nosotros</h2>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio maiores reprehenderit itaque
-                    saepe sit explicabo dicta eveniet, exercitationem labore omnis architecto iusto deserunt est? Illo
-                    itaque laboriosam numquam explicabo assumenda.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae at dolores accusamus architecto,
+                    perspiciatis sed tenetur quod dolore vel. Minus perspiciatis quibusdam modi deleniti quasi
+                    doloremque earum at ipsa culpa!
+                    Numquam eos architecto provident natus nostrum, ut laudantium officia exercitationem qui, voluptatum
+                    magnam nulla iusto vel ullam aliquam cupiditate ab amet labore! Cum ipsum, quam aliquam impedit
+                    nulla esse accusamus.
+                    Dolor atque accusamus iure est, molestias enim placeat consequuntur provident omnis nihil fugiat
+                    sint assumenda cum autem repudiandae doloribus dolorem totam error incidunt laborum? Quisquam
+                    provident ut ipsam architecto nisi.
+                    Placeat laborum nulla harum quam mollitia! Accusantium optio fuga saepe! Totam dolorem et temporibus
+                    blanditiis iusto modi corporis commodi voluptatum ex! Necessitatibus suscipit similique tempore
+                    voluptate. Similique doloribus error fugiat?
+                    Quia necessitatibus veritatis nobis asperiores delectus dolorem voluptatibus voluptatum modi, illum
+                    dolores eveniet earum, inventore incidunt quasi debitis totam doloremque iure blanditiis. Inventore
+                    cum iure laudantium ut nam veniam error.
+                    Similique, doloremque modi voluptates odit hic doloribus reprehenderit consequuntur iure rem
+                    inventore cum voluptate ex maxime consequatur eum quasi. Inventore qui laborum in? Natus nostrum
+                    impedit hic sit facere non.
+                    Ab, molestiae commodi nam praesentium similique quibusdam numquam qui ipsam reprehenderit officiis
+                    aperiam corrupti esse sequi, officia non incidunt? Blanditiis placeat possimus ab recusandae
+                    numquam. Dicta mollitia fuga dolore illum.
+                    Voluptatibus, quae aperiam sunt tenetur deleniti ea facilis harum nulla optio pariatur quidem
+                    deserunt ex suscipit nemo? Maxime eius veritatis est necessitatibus corporis, assumenda adipisci
+                    perferendis voluptates quisquam! Voluptatem, deserunt.
+                    Similique, dolor tempore, possimus illum animi ab temporibus enim commodi autem modi recusandae ipsa
+                    vero architecto facere! Velit itaque voluptatibus consequatur quam delectus dolores repudiandae,
+                    eum, maiores illo excepturi vero!
+                    Nisi aliquid veritatis soluta deserunt accusamus alias provident. Cum, eaque temporibus? Fugiat
+                    necessitatibus cumque recusandae! At esse corrupti, veniam similique architecto nam non error sint
+                    earum ut, nesciunt rerum animi!
                 </p>
             </article>
         </section>
-        <section>
+        <section class="especialidades">
             <h2>Médicos Especialistas</h2>
-            <article>
-                <div>
-                    <img src="img/especialistas.png" alt="">
-                </div>
-                <div>
+            <article class="body">
+                <article>
+                    <img src="img/especialistas.png" alt="100">
                     <p>Mas de 15 años de experiencia</p>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="img/especialistas.png" alt="">
-                </div>
-                <div>
+                </article>
+                <article>
+                    <img src="img/especialistas.png" alt="100">
                     <p>Mas de 15 años de experiencia</p>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="img/especialistas.png" alt="">
-                </div>
-                <div>
+                </article>
+                <article>
+                    <img src="img/especialistas.png" alt="100">
                     <p>Mas de 15 años de experiencia</p>
-                </div>
+                </article>
             </article>
+
         </section>
-        <section>
+        <section class="tiposEspecialidades">
             <article>
                 <img src="img/TiposEspecialidades.png" alt="">
                 <aside>
@@ -117,8 +137,8 @@
                 </aside>
             </article>
         </section>
-        <section>
-            <article>
+        <section class="servicios">
+            <article class="promociones">
                 <h3>Promociones</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, repudiandae numquam ea qui eos
                     necessitatibus voluptatibus nihil natus perferendis exercitationem modi, quaerat minus reprehenderit
@@ -133,7 +153,7 @@
                     eligendi possimus suscipit!
                 </p>
             </article>
-            <article>
+            <article class="planes">
                 <h3>Planes dentales</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae quasi rem, obcaecati culpa
                     impedit et omnis saepe praesentium, soluta sapiente vitae repellat possimus qui at repudiandae
@@ -158,23 +178,20 @@
     <footer>
         <section>
             <article>
+                <div>
                 <h4>Redes Sociales</h4>
-                <div>
-                    <img src="img/facebook.png" alt="">
-                    <img src="img/instagram.png" alt="">
-                    <img src="img/twitter.png" alt="">
                 </div>
+                <div><img src="img/facebook.png" alt=""></div>
+                <div><img src="img/instagram.png" alt=""></div>
+                <div><img src="img/twitter.png" alt=""></div>
             </article>
             <article>
-                <h4>Información de contacto</h4>
                 <div>
-                    <img src="img/telephone.png" alt="">
-                    <img src="img/gmail.png" alt="">
-                    <img src="img/whatsapp.png" alt="">
-                </div>
-            </article>
-            <article>
-                <div id="map"></div>
+                    <h4>Información de contacto</h4>
+                    </div>
+                    <div><img src="img/telephone.png" alt=""></div>
+                    <div><img src="img/gmail.png" alt=""></div>
+                    <div><img src="img/whatsapp.png" alt=""></div>
             </article>
         </section>
     </footer>

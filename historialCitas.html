@@ -6,20 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historial Citas</title>
+    <link rel="stylesheet" href="./iconos/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <div>
                 <img src="#" alt="">
             </div>
             <div>
-                <ul>
+                <ul class="menu-horizontal">
                     <li><a href="/home.html">Inicio</a></li>
                     <li>
                         <a href="#">Paciente</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/registrar.html">Crear perfil</a></li>
                             <li><a href="/pagos.html">Realizar pago</a></li>
@@ -31,7 +33,7 @@
                     </li>
                     <li>
                         <a href="#">Médico</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/elaborarTratamientos.html">Elaborar tratamientos</a></li>
                             <li><a href="/planesDentales.html">Planes dentales</a></li>
@@ -42,7 +44,7 @@
                     </li>
                     <li>
                         <a href="#">Administrador</a>
-                        <ul>
+                        <ul class="menu-vertical">
                             <li><a href="/login.html">Ingresar</a></li>
                             <li><a href="/enviarComunicados.html">Enviar comunicados</a></li>
                             <li><a href="/historialCitas.html">Historial de citas</a></li>
@@ -60,10 +62,10 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="tablas">
             <h2>Historial de citas</h2>
             <div>
-                <table border="1">
+                <table>
                     <thead>
                         <th>ID</th>
                         <th>Identificación</th>
@@ -116,29 +118,6 @@
 
         </section>
     </main>
-    <footer>
-        <section>
-            <article>
-                <h4>Redes Sociales</h4>
-                <div>
-                    <img src="img/facebook.png" alt="">
-                    <img src="img/instagram.png" alt="">
-                    <img src="img/twitter.png" alt="">
-                </div>
-            </article>
-            <article>
-                <h4>Información de contacto</h4>
-                <div>
-                    <img src="img/telephone.png" alt="">
-                    <img src="img/gmail.png" alt="">
-                    <img src="img/whatsapp.png" alt="">
-                </div>
-            </article>
-            <article>
-                <div id="map"></div>
-            </article>
-        </section>
-    </footer>
 </body>
 
 </html>

@@ -63,7 +63,10 @@
     </header>
     <main>
         <section class="formularios">
-            <form action="#" method="post">
+            <form action="#" method="post" id="form" class="formulario">
+                <div class="form-group title">
+                    <h3>Enviar comunicados</h3>
+                </div>
                 <div class="form-group">
                     <label for="txtAsunto">Asunto</label>
                     <input type="text" id="txtAsunto" name="txtAsunto" placeholder="Asunto">
@@ -73,11 +76,16 @@
                     <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" placeholder="Mensaje..."></textarea>
                 </div>
                 <div class="form-group">
-                    <button>Enviar</button>
+                    <button id="btnEnviar">Enviar</button>
+                </div>
+                <div class="mensajesError" id="mensajesValidacion">
+                </div>
+                <div class="mensajesExito" id="mensajesExito">
                 </div>
             </form>
         </section>
     </main>
+    <script src="/js/enviarComunicados.js"></script>
 </body>
 
 </html>

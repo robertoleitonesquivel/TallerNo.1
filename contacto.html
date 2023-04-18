@@ -63,10 +63,12 @@
         </nav>
     </header>
     <main>
-        <section>
-            <form action="#" method="post">
+        <section class="formularios">
+            <form action="#" method="post" id="form" class="formulario">
+                <div class="form-group title">
+                    <h3>Contacto</h3>
+                </div>
                 <div class="form-group">
-                    <i class="fa-solid fa-envelope"></i>
                     <label for="txtEmail"></label>
                     <input type="text" id="txtEmail" name="txtEmail" placeholder="Email" />
                 </div>
@@ -75,18 +77,20 @@
                     <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10" placeholder="Mensaje..."></textarea>
                 </div>
                 <div class="form-group">
-                    <div class="form-group">
-                        <button type="button"><i class="fa-solid fa-paper-plane"></i> Enviar</button>
-                    </div>
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                </div>
+                <div class="mensajesError" id="mensajesValidacion">
+                </div>
+                <div class="mensajesExito" id="mensajesExito">
                 </div>
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="footerContactos">
         <section>
             <article>
                 <div>
-                <h4>Redes Sociales</h4>
+                    <h4>Redes Sociales</h4>
                 </div>
                 <div><img src="img/facebook.png" alt=""></div>
                 <div><img src="img/instagram.png" alt=""></div>
@@ -95,13 +99,14 @@
             <article>
                 <div>
                     <h4>Información de contacto</h4>
-                    </div>
-                    <div><img src="img/telephone.png" alt=""></div>
-                    <div><img src="img/gmail.png" alt=""></div>
-                    <div><img src="img/whatsapp.png" alt=""></div>
+                </div>
+                <div><img src="img/telephone.png" alt=""></div>
+                <div><img src="img/gmail.png" alt=""></div>
+                <div><img src="img/whatsapp.png" alt=""></div>
             </article>
         </section>
     </footer>
+    <script src="/js/contacto.js"></script>
 </body>
 
 </html>
